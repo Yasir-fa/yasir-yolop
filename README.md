@@ -32,9 +32,9 @@ docker ps -a
 ```
 Copy CONTAINER ID from output and paste instead of \<CONTAINER ID\> in the next command.
 ```shell
-docker cp ./images <CONTAINER ID>:/yolop/YOLOP/inference
+docker cp .\images <CONTAINER ID>:/yolop/YOLOP/inference
 ```
-On Windows you need to use a backslash \ instead of a slash /.
+On MAC you need to use a slash / instead of backslash \.
 
 #### Step 6. Apply the YOLOP algorithm to the loaded images. (In terminal with docker container running)
 ```shell
